@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+}
+input{
+    /* border: none; */
+    font-size: 18px;
+    padding-left: 15px;
+}
+button{
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.title{
+    margin: 10px;
+}
+.sectionSearch{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.result{
+    padding: 5px 10px;
+}
