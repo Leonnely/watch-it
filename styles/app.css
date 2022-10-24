@@ -141,4 +141,9 @@ p,span,strong{
     to {
        transform: translate(0);
     }
- }
+}
+.JustWatch{
+    position: absolute;
+    bottom: 5%;
+    /* margin-top: 10px; */
+}
