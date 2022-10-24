@@ -21,21 +21,124 @@ button{
     font-size: 16px;
     cursor: pointer;
 }
+p,span,strong{
+    color: lightgray;
+}
 .title{
     margin: 10px;
 }
 .sectionSearch{
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: #222222;
 }
 
 .searchContainer{
+    /* width: 1200px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.result{
-    padding: 5px 10px;
+.form{
+    display: flex;
+    gap: 10px   ;
 }
+#inputSearch{
+    min-width: 200px;
+    max-width: 400px;
+    border-radius: 4px;
+}
+#searchButton{
+    background-color: #dfa402;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+#searchButton:hover{
+    background-color: #fcb900;
+}
+.result{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4px;
+    width: auto;
+    /* min-width: 200px; */
+    padding: 5px 20px;
+    text-align: center;
+}
+.linkProvider{
+    font-weight: bold;
+    color: #dfa402;
+}
+
+
+.glitch-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 5px;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #0ff;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-color 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #ff00ff;
+    z-index: -2;
+ }
+ 
+ @keyframes glitch-color {
+    0% {
+       transform: translate(0);
+    }
+ 
+    20% {
+       transform: translate(-1px, 1px);
+    }
+ 
+    40% {
+       transform: translate(-1px, -1px);
+    }
+ 
+    60% {
+       transform: translate(1px, 1px);
+    }
+ 
+    80% {
+       transform: translate(1px, -1px);
+    }
+ 
+    to {
+       transform: translate(0);
+    }
+ }

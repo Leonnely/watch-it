@@ -9,21 +9,23 @@
 </head>
 <body>
     <main>
-        <section class="sectionSearch">
+        <section class="sectionSearch wave">
             <div class="searchContainer">
-                <h1 class="title">Watch <span>It!</span></h1>
-                <form>
-                    <input  id="inputSearch" type="text" placeholder="Harry Potter">
-                    <button id="searchButton">🔍</button>
+                <div class="glitch-wrapper">
+                    <h1  class="glitch" data-glitch="Watch It!">Watch <span>It!</span></h1>
+                </div>
+                <form class="form">
+                    <input  id="inputSearch" type="text" placeholder="Harry Potter" autofocus >
+                    <button id="searchButton" type="button" >Buscar</button>
                 </form>
                 <div class="result">
-                    <p>Harry potter y la piedra filosofal esta disponible en </p>
-                    <a href="">HBO</a>
-                    <a href="">Netflix</a>
+                    
                 </div>
             </div>
         </section>
+        <script src="./src/key.js"></script>
+        <script src="./src/main.js"></script>
+        <script src="./src/controls.js"></script>
     </main>
-    <script src="./src/main.js"></script>
 </body>
 </html>

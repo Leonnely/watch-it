@@ -126,5 +126,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-#keys.js (API_KEY)
-src/keys.js
