@@ -1,5 +1,6 @@
-const BASE_URL= 'https://api.themoviedb.org/3';
 
+
+const BASE_URL= 'https://api.themoviedb.org/3';
 
 async function multiSearch(query){
     const response = await fetch(`${BASE_URL}/search/multi?api_key=${API_KEY}&query=${query}`)
