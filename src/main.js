@@ -1,4 +1,4 @@
-//import {API_KEY,BASE_URL} from "./key.js";
+
 
 const BASE_URL= 'https://api.themoviedb.org/3';
 
